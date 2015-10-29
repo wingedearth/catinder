@@ -1,0 +1,9 @@
+<h1>your cat is ferocious.</h1>
+
+<h1>
+  <% @cats.each |cat| do %>
+    <%= cat.name %>
+    <%= cat.image_uri %>
+    <%= cat.votes %>
+  <% end %>
+</h1>
